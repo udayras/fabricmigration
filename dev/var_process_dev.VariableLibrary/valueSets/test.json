@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/valueSet/1.0.0/schema.json",
+  "name": "test",
+  "variableOverrides": [
+    {
+      "name": "env_name",
+      "value": "test"
+    },
+    {
+      "name": "lh_student_bronze_id",
+      "value": "bfb20937-cff9-4e5d-a39d-ed1120f36104"
+    },
+    {
+      "name": "lh_student_landing_id",
+      "value": "0de2b9f1-5b15-4b4b-aebc-1d2b86f7b516"
+    },
+    {
+      "name": "lh_student_silver_id",
+      "value": "4f904717-bb91-453b-b266-0e8eec0401c9"
+    },
+    {
+      "name": "process_workspace_id",
+      "value": "4cf7fd12-8501-4181-9ebf-9c749bdea4dd"
+    }
+  ]
+}
