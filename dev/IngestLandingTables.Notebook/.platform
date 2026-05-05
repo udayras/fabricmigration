@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "IngestLandingTables"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e70a57d5-0579-8e29-482c-50ed5513595b"
+  }
+}

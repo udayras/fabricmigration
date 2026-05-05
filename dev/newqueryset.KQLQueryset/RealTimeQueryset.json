@@ -1,0 +1,22 @@
+{
+  "queryset": {
+    "version": "1.0.0",
+    "dataSources": [
+      {
+        "id": "38fb0849-d4ab-4872-b1f7-9a953ae8909f",
+        "clusterUri": "https://trd-ufjxrxwy41t7hckhxg.z3.kusto.fabric.microsoft.com",
+        "type": "Fabric",
+        "databaseItemId": "0e647135-459c-4969-9751-320ebb80cbff",
+        "databaseItemName": "Monitoring Eventhouse"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "bb028fa1-5ce4-41dd-bdbf-6d86caafe594",
+        "content": "// Now you can write and run any query freely\n\nItemJobEventLogs\n\n| where JobStartTime >= ago(7d)\n\n| project ItemName, JobType, JobStatus,\n\n          JobStartTime, JobEndTime, DurationMs\n\n\n ",
+        "title": "Tab",
+        "dataSourceId": "38fb0849-d4ab-4872-b1f7-9a953ae8909f"
+      }
+    ]
+  }
+}

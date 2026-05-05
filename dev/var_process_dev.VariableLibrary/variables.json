@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "env_name",
+      "note": "",
+      "type": "String",
+      "value": "dev"
+    },
+    {
+      "name": "process_workspace_id",
+      "note": "",
+      "type": "String",
+      "value": "45bb2834-8188-4831-9b42-099cdb0859e8"
+    },
+    {
+      "name": "lh_student_landing_id",
+      "note": "",
+      "type": "String",
+      "value": "d0f18dda-1838-4668-a256-16f056f6ae2d"
+    },
+    {
+      "name": "lh_student_bronze_id",
+      "note": "",
+      "type": "String",
+      "value": "0bf3f7b4-eeb4-4309-a890-39e19a5fe968"
+    },
+    {
+      "name": "lh_student_silver_id",
+      "note": "",
+      "type": "String",
+      "value": "0a2f1212-a1d8-4430-bf49-5b5b5a29592a"
+    }
+  ]
+}
