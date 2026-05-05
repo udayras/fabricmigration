@@ -1,0 +1,22 @@
+{
+  "queryset": {
+    "version": "1.0.0",
+    "dataSources": [
+      {
+        "id": "51df9cdd-bca9-4ae3-bd0d-983222f4ba74",
+        "clusterUri": "https://trd-ufjxrxwy41t7hckhxg.z3.kusto.fabric.microsoft.com",
+        "type": "Fabric",
+        "databaseItemId": "0e647135-459c-4969-9751-320ebb80cbff",
+        "databaseItemName": "Monitoring Eventhouse"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "47457de3-5e3c-4e1d-95ce-92db8ba52fe6",
+        "content": "EventStreamMetrics\n| take 10000",
+        "title": "Tab",
+        "dataSourceId": "51df9cdd-bca9-4ae3-bd0d-983222f4ba74"
+      }
+    ]
+  }
+}
